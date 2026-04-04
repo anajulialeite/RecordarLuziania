@@ -1,5 +1,7 @@
 # RecordarLuziania
 
+<img src="AJ - Criar e desenvolver (sem símbolo do Gemini).png" alt="Logo" align="center" width="65" height="65">
+
 Esse é um repositório dedicado para contar a história da minha cidade e suas atualidades
 
 ## Autora
