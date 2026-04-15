@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Luziânia Antiga x Atual — Compare fotos históricas de Luziânia, GO com imagens atuais. Veja a transformação da cidade ao longo dos anos. Por AJ - Criar e Desenvolver.">
+  <meta name="keywords" content="Luziânia antiga, fotos históricas, comparação, antes e depois, Goiás, transformação urbana">
+  <meta name="author" content="AJ - Criar e Desenvolver em parceria com Recordar Luziânia">
+  <title>Luziânia Antiga x Atual — Comparação Histórica | Recordar Luziânia</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header scrolled" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="header-logo">
+        <picture>
+          <source srcset="img/logo.webp" type="image/webp">
+          <img src="img/logo.png" alt="Logo Recordar Luziânia">
+        </picture>
+        <div class="header-logo-text">
+          <span>Recordar Luziânia</span>
+          <span>História &amp; Memória</span>
+        </div>
+      </a>
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html">Início</a>
+        <a href="antiga-x-atual.html" class="active">Antiga x Atual</a>
+        <a href="historia.html">Parte Histórica</a>
+        <a href="obtuario.html">Obituário</a>
+        <a href="patrocinio.html">Patrocínio</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+  <section class="page-banner">
+    <div class="page-banner-bg">
+      <picture>
+        <source media="(max-width: 768px)" srcset="img/cidade-antiga-05-mobile.webp" type="image/webp">
+        <source srcset="img/cidade-antiga-05.webp" type="image/webp">
+        <img src="img/cidade-antiga-05.jpg" alt="Luziânia antiga">
+      </picture>
+    </div>
+    <div class="page-banner-overlay"></div>
+    <div class="page-banner-content">
+      <div class="secao-tag">Comparativo</div>
+      <h1>Luziânia <span>Antiga x Atual</span> — Transformação ao Longo dos Anos</h1>
+      <p>Arraste o controle para revelar como Luziânia se transformou ao longo das décadas.</p>
+    </div>
+  </section>
+
+  <!-- CONTEÚDO -->
+  <section class="secao secao-creme">
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="index.html">Início</a>
+        <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+        <span>Antiga x Atual</span>
+      </nav>
+
+      <p class="comparacao-intro">
+        Arraste o controle deslizante para a esquerda ou direita e descubra como os 
+        locais históricos de Luziânia se transformaram com o passar dos anos. 
+        À esquerda, a foto antiga; à direita, a imagem atual.
+      </p>
+
+      <div class="comparacao-grid">
+
+        <!-- COMPARAÇÃO 1: Centro Histórico -->
+        <div class="comparacao-item animate-on-scroll">
+          <div class="comparacao-slider" id="slider1">
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/cidade-antiga-05-mobile.webp" type="image/webp">
+              <source srcset="img/cidade-antiga-05.webp" type="image/webp">
+              <img src="img/cidade-antiga-05.jpg" alt="Centro Histórico - Atual" class="img-atual">
+            </picture>
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/cidade-antiga-02-mobile.webp" type="image/webp">
+              <source srcset="img/cidade-antiga-02.webp" type="image/webp">
+              <img src="img/cidade-antiga-02.jpg" alt="Centro Histórico - Antiga" class="img-antiga">
+            </picture>
+            <div class="comparacao-slider-line"></div>
+            <div class="comparacao-slider-handle">
+              <svg viewBox="0 0 24 24"><path d="M9 3L5 6.99h3V14h2V6.99h3L9 3zm7 14.01V10h-2v7.01h-3L15 21l4-3.99h-3z"/></svg>
+            </div>
+            <span class="comparacao-label comparacao-label-antiga">Antiga</span>
+            <span class="comparacao-label comparacao-label-atual">Atual</span>
+          </div>
+          <div class="comparacao-info">
+            <h3>Centro Histórico de Luziânia</h3>
+            <p>O centro da cidade preserva parte de sua arquitetura colonial, mas também passou por transformações significativas ao longo das décadas.</p>
+            <div class="comparacao-meta">
+              <div class="comparacao-meta-item">
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                Centro de Luziânia
+              </div>
+              <div class="comparacao-meta-item">
+                <svg viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/></svg>
+                Décadas de transformação
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- COMPARAÇÃO 2 -->
+        <div class="comparacao-item animate-on-scroll">
+          <div class="comparacao-slider" id="slider2">
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/cidade-antiga-06-mobile.webp" type="image/webp">
+              <source srcset="img/cidade-antiga-06.webp" type="image/webp">
+              <img src="img/cidade-antiga-06.jpg" alt="Praça - Atual" class="img-atual">
+            </picture>
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/cidade-antiga-03-mobile.webp" type="image/webp">
+              <source srcset="img/cidade-antiga-03.webp" type="image/webp">
+              <img src="img/cidade-antiga-03.jpg" alt="Praça - Antiga" class="img-antiga">
+            </picture>
+            <div class="comparacao-slider-line"></div>
+            <div class="comparacao-slider-handle">
+              <svg viewBox="0 0 24 24"><path d="M9 3L5 6.99h3V14h2V6.99h3L9 3zm7 14.01V10h-2v7.01h-3L15 21l4-3.99h-3z"/></svg>
+            </div>
+            <span class="comparacao-label comparacao-label-antiga">Antiga</span>
+            <span class="comparacao-label comparacao-label-atual">Atual</span>
+          </div>
+          <div class="comparacao-info">
+            <h3>Logradouros e Praças de Luziânia</h3>
+            <p>As praças e ruas de Luziânia guardam memórias de tempos passados, quando o ritmo era outro e as paisagens contavam histórias diferentes.</p>
+            <div class="comparacao-meta">
+              <div class="comparacao-meta-item">
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                Luziânia, GO
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- COMPARAÇÃO 3 -->
+        <div class="comparacao-item animate-on-scroll">
+          <div class="comparacao-slider" id="slider3">
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/cidade-antiga-07-mobile.webp" type="image/webp">
+              <source srcset="img/cidade-antiga-07.webp" type="image/webp">
+              <img src="img/cidade-antiga-07.jpg" alt="Vista Panorâmica - Atual" class="img-atual">
+            </picture>
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/cidade-antiga-04-mobile.webp" type="image/webp">
+              <source srcset="img/cidade-antiga-04.webp" type="image/webp">
+              <img src="img/cidade-antiga-04.jpg" alt="Vista Panorâmica - Antiga" class="img-antiga">
+            </picture>
+            <div class="comparacao-slider-line"></div>
+            <div class="comparacao-slider-handle">
+              <svg viewBox="0 0 24 24"><path d="M9 3L5 6.99h3V14h2V6.99h3L9 3zm7 14.01V10h-2v7.01h-3L15 21l4-3.99h-3z"/></svg>
+            </div>
+            <span class="comparacao-label comparacao-label-antiga">Antiga</span>
+            <span class="comparacao-label comparacao-label-atual">Atual</span>
+          </div>
+          <div class="comparacao-info">
+            <h3>Paisagem Urbana de Luziânia</h3>
+            <p>A expansão urbana de Luziânia transformou a paisagem da cidade, mas alguns pontos ainda guardam a essência do passado colonial.</p>
+            <div class="comparacao-meta">
+              <div class="comparacao-meta-item">
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                Luziânia, GO
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top: none;">
+        <p>&copy; 2026 <strong>AJ - Criar e Desenvolver</strong> | Em parceria com Recordar Luziânia</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Menu mobile
+    document.getElementById('menuToggle').addEventListener('click', () => {
+      document.getElementById('menuToggle').classList.toggle('active');
+      document.getElementById('navMenu').classList.toggle('active');
+    });
+
+    // Animação ao scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+    // ── Slider de Comparação ──
+    document.querySelectorAll('.comparacao-slider').forEach(slider => {
+      let isDragging = false;
+
+      function updateSlider(slider, x) {
+        const rect = slider.getBoundingClientRect();
+        let pos = ((x - rect.left) / rect.width) * 100;
+        pos = Math.max(5, Math.min(95, pos));
+
+        const imgAntiga = slider.querySelector('.img-antiga');
+        const line = slider.querySelector('.comparacao-slider-line');
+        const handle = slider.querySelector('.comparacao-slider-handle');
+
+        imgAntiga.style.clipPath = `inset(0 ${100 - pos}% 0 0)`;
+        line.style.left = pos + '%';
+        handle.style.left = pos + '%';
+      }
+
+      slider.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        updateSlider(slider, e.clientX);
+      });
+
+      document.addEventListener('mousemove', (e) => {
+        if (isDragging) updateSlider(slider, e.clientX);
+      });
+
+      document.addEventListener('mouseup', () => {
+        isDragging = false;
+      });
+
+      // Touch
+      slider.addEventListener('touchstart', (e) => {
+        isDragging = true;
+        updateSlider(slider, e.touches[0].clientX);
+      });
+
+      slider.addEventListener('touchmove', (e) => {
+        if (isDragging) {
+          e.preventDefault();
+          updateSlider(slider, e.touches[0].clientX);
+        }
+      });
+
+      slider.addEventListener('touchend', () => {
+        isDragging = false;
+      });
+    });
+  </script>
+
+</body>
+</html>
